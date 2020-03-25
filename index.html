@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola, soy Andres Felipe Garcia</title>
-    <link rel="icon" type="image/png" href="HTML/Captura.PNG">
+    <title>Leonidas Esteban</title>
+    <link rel="icon" type="image/png" href="./css/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
-</figure>">
+</figure>
 </head>
 <body>
     <header class="header">
         <div>
             <figure class="logo">
-                <img src="./css/Captura.PNG" alt="">
+                <img src="./css/logo.png" alt="Logo">
             </figure>
         <nav class="menu">
             <ol>
@@ -32,34 +32,39 @@
     </header>
     <section class="hero"> 
         <h1>
-            Hola! soy Andres Felipe Garcia, soy desarrollador Javascript con pasion por el desarrollo        
+            Hola! soy <strong>Andres Felipe Garcia </strong> <br> soy desarrollador Javascript <strong>con pasion por el desarrollo </strong>         
         </h1>
-        <img src="./css/hero.jpg" width="900" alt="Imagen principal del sitio"> 
+        <!--<img src="./css/hero.jpg" width="500" height="300" alt="Imagen principal del sitio">-->
     </section>
     <section id="portafolio" class="portfolio"> 
         <h2>Portafiolio (Proyectos Destacados)</h2>
         <article class="project">
-            <h3 class="project-title">Platzi Video</h3>
-            <h6 class="project course">React Native / React</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong></small>www.platzi.com/native</p>
-            <p class="project-description"><small><strong>Fecha:</strong> 01/07/2018</small></p> 
+            <div class="project-details"> 
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong></small>www.platzi.com/native</p>
+                <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de Reac y React Native. Desde crear un viste-detalle hasta patrones avanzados de multiplataforma. Este proyecto es la base para futuros desarrolladores de aplicaciones</p> 
+            </div>
+            <figure class="project-imageContainer">
+                <img src="./css/platzi-video-react-native.png" width="500" alt="Platzi video con React"> 
+            </figure>
         </article>
     </section>
     <section id="eventos">
         <h2>Mas sobre mi Experiencia</h2>
         <article class="event">   
-            <figure>
-                <img src="" alt="">
+            <figure class="event-imageContainer">
+                <img class="event-imageContainer" src="./css/platzi-conf.jpg" width="500 "alt="PlatziConf Mexico 2018">
             </figure>
             <h3 class="event-title">Platzi Conf Mexico 2018</h3>
-            <p class="event-description"></p>
-            <a class="event-url">Ver platica</a>
+            <p class="event-description">Es el evento mas grande de Platzi en la ciudad de Mexico para aquellos que quieren aprender todo sobre internet y programacion</p>
+            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank" class="event-url">Ver platica</a>
         </article>
     </section>
     <section id="contacto" class="contact"> 
         <form action="/suscripcion/" class="form-email">
-            <h3>¿Creamos algo Juntos?</h3>
+            <h3 >¿Creamos algo Juntos?</h3>
             <input type="text" placeholder="Dejame tu email" id="email">
             <button>Enviar</button>
         </form>
