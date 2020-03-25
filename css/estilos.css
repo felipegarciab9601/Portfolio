@@ -1,0 +1,39 @@
+/*valores
+/*Selectores
+/*Declaraciones
+/*Propieades*/
+
+/*selector de etiqueta header - section */
+
+/* selector descedente */
+/*header {
+    
+    background-color: pink;
+}*/
+/* body header div nav ol li a */
+/* selector de clase . */
+/* .link */
+/* selector de id # */
+/* #portafolio */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif ;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1,5em;
+
+}
